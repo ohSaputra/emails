@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+center {
+	min-width: auto !important;
+}
+.container.sick {
+	background: #2067B2;
+	font-family: 'Open Sans';
+
+	p.lead {
+		font-family: 'Open Sans';
+		font-weight: 300;
+		color: #E3EAF2;
+		font-size: 100px;
+	}
+
+	p.content {
+		color: #E3EAF2;
+	    font-family: 'Open Sans';
+	    font-weight: 300;
+	    line-height: 1.5;
+	    font-size: 20px;
+	    letter-spacing: 0.5px;
+
+	    &.note {
+	    	font-size: 12px;
+	    }
+	}
+}
