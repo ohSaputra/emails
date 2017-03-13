@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,400i');
+
+$font-sick: 'Droid Serif', Helvetica, sans-serif;
+
+center {
+	min-width: auto !important;
+}
+
+body, html, .body {
+	background-color: #ECECEC !important;
+	font-family: $font-sick;
+}
+
+center small {
+	font-family: $font-sick;
+	font-size: 11px;
+}
+
+p.lead {
+	font-family: $font-sick;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 300;
+	color: #333;
+}
+
+.headline {
+	background-color: #F5F4F5;
+
+	img.main-img {
+		margin: 0 auto;
+	}
+}
+
+.content {
+	background-color: #FDFDFD;
+	padding-bottom: 0 !important;
+
+	p {
+		font-family: $font-sick;
+		font-size: 16px;
+		line-height: 30px;
+		color: #333;
+	}
+}
+
+.footer {
+	p {
+		font-family: $font-sick;
+		font-size: 12px;
+		color: #BDBDBD;
+	}
+
+	a {
+		color: #BDBDBD;
+		font-weight: 700;
+	}
+
+	img.icon-footer {
+		height: 25px;
+		vertical-align: middle;
+	    display: inline-block;
+	    margin-right: 5px;
+	}
+}
